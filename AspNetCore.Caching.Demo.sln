@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.Caching.Demo", "AspNetCore.Caching.Demo\AspNetCore.Caching.Demo.csproj", "{23B49885-2EF5-41DC-B92E-B655E23D0C08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23B49885-2EF5-41DC-B92E-B655E23D0C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23B49885-2EF5-41DC-B92E-B655E23D0C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23B49885-2EF5-41DC-B92E-B655E23D0C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23B49885-2EF5-41DC-B92E-B655E23D0C08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F26EBB6-7C3D-418D-8409-C751EA172A36}
+	EndGlobalSection
+EndGlobal
