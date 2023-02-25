@@ -56,7 +56,7 @@ namespace AspNetCore.Caching.Demo.Controllers
                 SlidingExpiration = TimeSpan.FromSeconds(5)
             };
 
-            var info = await _distributedCache.GetOrCreateAsync(userId.ToString(), () => GetUserInfoFromDbAsync(), cacheEntryOptions);
+            var info = await _distributedCache.GetOrCreateAsync(userId.ToString(), async () => await GetUserInfoFromDbAsync(), cacheEntryOptions);
             return Ok(info);
         }
 
